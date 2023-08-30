@@ -1,0 +1,25 @@
+{
+  "name": "lighthouse-automate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "serve": "node test.js",
+    "try": "node test2.js",
+    "start1": "node index8.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "^10.0.1",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.2",
+    "pptr-testing-library": "^0.7.0",
+    "puppeteer": "^19.8.5",
+    "xlsx": "^0.18.5"
+  }
+}
